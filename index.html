@@ -67,13 +67,14 @@
       flex-wrap: wrap;
       margin-top: 10px;
     }
-    .special-images img {
+  .special-images img {
   width: 100%;
   max-width: 500px;
-  max-height: 800px; /* or any fixed height you want */
-  object-fit: cover;
+  height: auto; /* auto-adjust based on image aspect ratio */
+  object-fit: contain;
   border-radius: 12px;
 }
+
   </style>
 </head>
 <body>
